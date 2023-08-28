@@ -10,5 +10,9 @@ public class Main {
         cheetah.create();
         Animal lion = factory.get("Lion");
         lion.create();
+
+        // Create a generic animal using the instance of the Factory class
+        Animal dog = factory.get("Dog");
+        dog.create();
     }
 }
